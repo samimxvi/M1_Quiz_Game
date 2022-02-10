@@ -4,7 +4,8 @@
 Quiz game using C is a simple quiz that allows a player to play a quiz game that is based on basic of C programming. This project is implemented in order to learn the concepts of Functions, Memory Map, Structures, Compilation and steps
 and Github Workflow for Build.
 
-Requirements :
+<h1> Requirements : </h1>
+   
 
 High Level Requirements
       
