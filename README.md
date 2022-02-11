@@ -1,2 +1,2 @@
-# M1_Project_C
-C Programming project
+# M1_Quiz_Game
+
