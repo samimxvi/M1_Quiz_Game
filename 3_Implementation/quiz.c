@@ -2,6 +2,12 @@
 #include <conio.h>
 #include <stdlib.h>
 
+void quit()
+{
+    printf("\n\n\t\t\t****************@ THANK YOU FOR VISITING! @***************\n");
+    printf("\t\t\t\t*********@  See you again soon @*********\n");
+}
+
 void know()
 {
     system("cls");
@@ -9,18 +15,12 @@ void know()
     printf("\n------------________________________________________________________________________________________________------------\n");
     printf("\n\n\t\t\t\t 1. This quiz game contains total 15 questions in total.");
     printf("\n\t\t\t\t 2. Each question carries 10 points.");
-    printf("\n\t\t\t\t 3. You need to score 150 points continously to win the game.");
-    printf("\n\t\t\t\t 4. You will presented 4 options.");
+    printf("\n\t\t\t\t 3. You need to score 100 points continously to win the game.");
+    printf("\n\t\t\t\t 4. You will be presented 4 options.");
     printf("\n\t\t\t\t 5. Choose the right one and you can move ahead.");
     printf("\n\t\t\t\t 6. Otherwise, you loose.");
     printf("\n\t\t\t\t 7. But remember, there is always a second chance.");
     printf("\n\n\t\t\t\t\t************@  ALL THE BEST @************\n\n");
-}
-
-void quit()
-{
-    printf("\n\n\t\t\t****************@ THANK YOU FOR VISITING! @***************\n");
-    printf("\t\t\t\t*********@  See you again soon @*********\n");
 }
 
 void winner(int score, char name[])
@@ -245,6 +245,7 @@ void start()
                     v1.score = v1.score + 10;
                     printf("\tYour Answer is correct!\n");
                     printf("\tYour score is : %d", v1.score);
+                    winner(v1.score, v1.name);
                 }
                 else
                 {
