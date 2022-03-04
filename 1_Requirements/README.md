@@ -16,6 +16,7 @@ High Level Requirements
 
 Low Level Requirements :
      
-     The features of this game is implemented using functions to enable code reusability. To build a simple game with reduced complexity structures are used.
+     The features of this game is implemented using functions to enable code reusability. 
+     To build a simple game with reduced complexity structures are used.
 
 The compilation of this game can be done in command prompt as gcc filename.c and a. In IDE, we can simply run the code to compile this game.
